@@ -1,0 +1,10 @@
+type make_entry = {
+  id <json name="Make_ID">: int;
+  name <json name="Make_Name">: string;
+}
+
+type make_response = {
+  count <json name="Count">: int;
+  message <json name="Message">: string;
+  results <json name="Results">: make_entry list;
+}

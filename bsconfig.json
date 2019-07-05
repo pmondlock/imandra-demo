@@ -1,0 +1,30 @@
+{
+  "name": "mid-admin-backend",
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "bs-dev-dependencies": [
+    "@glennsl/bs-jest"
+  ],
+  "bs-dependencies": [
+    "bs-express",
+    "bs-fetch",
+    "bs-knex",
+    "bs-uuid",
+    "@glennsl/bs-json",
+    "@ncthbrt/re-secure-random-string",
+    "reason-future",
+    "@ahrefs/bs-atdgen-codec-runtime"
+  ],
+  "refmt": 3,
+  "warnings": {
+    "number": "-27-30-40+6+7+32..39+44+45+101",
+    "error": "-a+8+10"
+  }
+}

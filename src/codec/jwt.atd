@@ -1,0 +1,13 @@
+type accessToken = {
+  exp: int;
+  iat: int;
+  sub: string;
+  iss: string;
+  aud: string;
+  scp: string list;
+  ?groups: string list option;
+  ?cid: string option;
+  ?uid: string option;
+  ?jti: string option;
+  ver: int;
+}
